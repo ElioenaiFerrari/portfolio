@@ -46,5 +46,8 @@ deploy:
 destroy:
 	kind delete cluster --name=${APP_NAME}-cluster
 
+.PHONY: push
 
+push:
+	docker push elioenaiferrari/${APP_NAME}
 
