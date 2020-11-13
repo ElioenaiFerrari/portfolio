@@ -39,7 +39,7 @@ bash:
 .PHONY: deploy
 
 deploy:
-	kind create cluster --name=${APP_NAME}-cluster && kubectl apply -f .k8s/deployment.yml && kubectl apply -f .k8s/service.yml
+	make destroy && kind create cluster --name=${APP_NAME}-cluster && kubectl apply -f .k8s/deployment.yaml && kubectl apply -f .k8s/service.yaml
 	
 .PHONY: destroy
 
