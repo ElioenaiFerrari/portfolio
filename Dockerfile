@@ -7,6 +7,6 @@ COPY . .
 
 RUN yarn build
 
-EXPOSE $APP_PORT
+EXPOSE $PORT
 
 CMD yarn start
