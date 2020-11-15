@@ -1,8 +1,2 @@
 node_modules
 build
-.babelrc
-docker-compose.yaml
-Dockerfile
-Makefile
-.k8s
-.vscode
