@@ -10,7 +10,7 @@ async function sendMessage(event) {
     const message = document.querySelector('textarea[name="message"]').value;
 
     const response = await fetch(
-      'http://localhost:3333/services/send-message',
+      'https://elioenai-ferrari.herokuapp.com/services/send-message',
       {
         method: 'POST',
         body: JSON.stringify({ name, email, subject, message }),
