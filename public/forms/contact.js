@@ -4,19 +4,32 @@ async function sendMessage(event) {
   try {
     event.preventDefault();
 
-    const name = document.querySelector('input[name="name"]').value;
-    const email = document.querySelector('input[name="email"]').value;
-    const subject = document.querySelector('input[name="subject"]').value;
-    const message = document.querySelector('textarea[name="message"]').value;
+    const name = document.querySelector('input[name="name"]');
+    const email = document.querySelector('input[name="email"]');
+    const subject = document.querySelector('input[name="subject"]');
+    const message = document.querySelector('textarea[name="message"]');
 
     const response = await fetch(
       'https://elioenai-ferrari.herokuapp.com/services/send-message',
       {
         method: 'POST',
-        body: JSON.stringify({ name, email, subject, message }),
-        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          name: name.value,
+          email: email.value,
+          subject: subject.value,
+          message: message.value,
+        }),
+        headers: {
+          'Content-Type': 'application/json',
+          Accept: 'application/json',
+        },
       }
     );
+
+    name.value = '';
+    email.value = '';
+    subject.value = '';
+    message.value = '';
 
     if (response.status === 200) {
       alert('You email are send with success');
