@@ -1,9 +1,11 @@
 import Image from 'next/image';
-
-import Social from '../social/Social';
 import Info from './Info';
+import Social from '../social/Social';
 import { info } from '../../constants';
-import Pix  from '../Pix';
+
+// import Pix  from '../Pix';
+
+
 
 const SidebarInfo = () => {
   return (
@@ -26,9 +28,9 @@ const SidebarInfo = () => {
 
         {/* Social Links */}
 
-        <div className='flex justify-center space-x-3 mb-6'>
+        {/* <div className='flex justify-center space-x-3 mb-6'>
           <Pix/>
-        </div>
+        </div> */}
 
         <div className='flex justify-center space-x-3'>
           <Social />
