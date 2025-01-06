@@ -169,7 +169,7 @@ export const info = {
       id: '0',
       tag: 'Web',
       title: 'Just One',
-      img: '/images/work_images/investment_calculator.png',
+      img: '/images/work_images/just-one.png',
       bg: '#FFF0F0',
       client: 'Any',
       stack: 'Elixir, Phoenix, LiveView, TailwindCSS',
