@@ -113,10 +113,17 @@ export const info = {
         },
         {
           id: 6,
-          date: '2024-Current',
+          date: '2024-2025',
           title: 'Senior Sofware Engineer',
           place: 'iFood',
           bg: '#F2F4FF',
+        },
+        {
+          id: 7,
+          date: '2025-Current',
+          title: 'Senior Sofware Engineer',
+          place: 'Firstbase',
+          bg: '#EEF5FA',
         },
       ].reverse(),
     },
