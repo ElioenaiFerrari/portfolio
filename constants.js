@@ -175,15 +175,15 @@ export const info = {
     {
       id: '0',
       tag: 'Web',
-      title: 'Just One',
-      img: '/images/work_images/just-one.png',
+      title: 'Remember the day',
+      img: '/images/work_images/remember-the-day.svg',
       bg: '#FFF0F0',
       client: 'Any',
       stack: 'Elixir, Phoenix, LiveView, TailwindCSS',
-      link: 'https://just-one.fly.dev/',
-      linkText: 'Break Barriers, Seamlessly.',
+      link: 'https://remember-the-day.fly.dev',
+      linkText: 'Share Your Special Memories',
       description:
-        'Experience a new level of communication with real-time chat translations. Instantly connect across languages with ease.',
+        'Create, store and share your most beautiful moments in a unique and meaningful way. Your memories deserve to be preserved in style.',
     },
     {
       id: '1',
