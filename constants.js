@@ -13,7 +13,7 @@ export const info = {
   colab_url: 'https://8bits-colab.vercel.app/',
   github_url: 'https://github.com/ElioenaiFerrari',
   aboutMe:
-    'Passionate Backend Development with 3+ years of experience blending the software with programming skills to deliver an immersive and engaging user experience through efficient and effective solutions. proactive feature optimization, and relentless debugging.',
+    'Passionate Backend Development with 5+ years of experience blending the software with programming skills to deliver an immersive and engaging user experience through efficient and effective solutions. proactive feature optimization, and relentless debugging.',
   services: [
     {
       id: '1',
